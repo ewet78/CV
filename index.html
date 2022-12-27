@@ -1,78 +1,59 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ewelina Tokarz</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Ewelina's Personal Site</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 <body>
-    <table cellspacing="15">
-        <tr>
-            <td><img src="ewelina.png" alt="ewelina profile picture"></td>
-            <td> <h1>Ewelina Tokarz</h1>
-                <p><em>Architect and programmer, current place of job is <strong><a href="http://www.pro-archivision.pl/">Pro Archivision</a></strong> in Krakow.</em></p>
-                <p>I ❤️love good books and coffee.</p></td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Courses and Practices</h3>
-    <ul>
-        <li><em><a href="https://przyszlyprogramista.pl/">Przyszły Programista</a></em> - Course of Programming</li>
-        <li><a href="https://www.udemy.com/course/git-od-podstaw-dla-kazdego/">GIT od podstaw dla każdego</a> - Adrian's Szuszkiewicz Course</li>
-        <li><a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/?src=sac&kw=the+complete+web">The Complete 2023 Web Development Bootcamp</a> - Angela's Yu Course</li>
-    </ul>
-    <hr>
-    <h3>Working Experience</h3>
-    <table cellspacing="10">
-        <thead>
-            <tr>
-                <th>Dates</th>
-                <th>Work</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    2021-2022
-                </td>
-                <td>
-                    Architect
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    2019-2021
-                </td>
-                <td>
-                    Architectural Assistant
-                </td>
-            </tr>
-        </tbody>
-        <tfoot>
-
-        </tfoot>
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing="10">
-        <tr>
-            <td>C++</td>
-            <td>⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>HTML</td>
-            <td>⭐⭐</td>
-        </tr>
-        <tr>
-            <td>CSS</td>
-            <td>⭐⭐</td>
-        </tr>
-    </table>
-    <hr>
-    <a href="myHobbies.html">My Hobbies</a>
-    <a href="myContactDetails.html">Contact Me</a>
-    
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+        <h1>I'm Ewelina</h1>
+        <h2>a <span class="pro">pro</span>grammer</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+        <img src="images/mountain.png" alt="mountain-img">
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+          <img src="images/ewelina.png" alt="ewelina's profile picture">
+          <h2>Hello.</h2>
+          <p class="intro">Currently I'm working in Krakow. From over a year I've been learning programming. I ❤️ good books and coffee.</p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="code-img" src="images/computer.png" alt="computer image">
+            <h3>C++</h3>
+            <p>For a year I've been learning the C++ programming language.</p>
+          </div>
+          <div class="skill-row">
+            <img class="folder-img" src="images/folder.png" alt="html and css">
+            <h3>HTML and CSS</h3>
+            <p>For several months I've been learning web technologies.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>If you want to meet me...</h3>
+          <p class="contact-message">I'm becoming passionate about programming. If you want to meet me, feel free to contact me. Together we will achieve the impossible.</p>
+          <a class="btn" href="mailto:ewelinatokarz28@gmail.com">CONTACT ME</a>
+        </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/ewelina-tokarz-53363a173/">LinkedIn</a>
+        <a class="footer-link" href="https://github.com/ewet78">GitHub</a>
+        <a class="footer-link" href="https://ewet78.github.io/CV/">Website</a>
+        <p class="copyright">© 2022 Ewelina Tokarz</p>
+      </div>
 </body>
 </html>
